@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+
+    font-family: sans-serif;
 }
 
 body {
@@ -13,6 +15,21 @@ body {
 
 .header {
     background-color: #333333;
+    color: white;
+}
+
+.header__nav-list {
+    display: grid;
+    grid-auto-flow: column;
+    list-style: none;
+    justify-content: center;
+    gap: 1.7rem;
+    padding: 1rem;
+}
+
+.header__nav-link {
+    color: inherit;
+    text-decoration: none;
 }
 
 .products-section {
